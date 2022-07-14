@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B50854FF9008C1E70D61684 /* Pods_articapp_articappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E48C6CAE04A4053306AE1B3 /* Pods_articapp_articappUITests.framework */; };
+		181D20872749C3D000880FE8 /* UserPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D20862749C3D000880FE8 /* UserPostsViewController.m */; };
+		181D208B2749C4FF00880FE8 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D208A2749C4FF00880FE8 /* NotificationsViewController.m */; };
+		1832E67827475ACD00E69E32 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832E67727475ACD00E69E32 /* NewPostViewController.m */; };
+		186D0A572748BE2200E089B8 /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D0A562748BE2200E089B8 /* BrowseViewController.m */; };
+		186D0A5F2748E05000E089B8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D0A5E2748E05000E089B8 /* DetailViewController.m */; };
+		187D4F1F2762294500933E86 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D4F1E2762294500933E86 /* SettingsTableViewController.m */; };
+		187D4F2227622B2C00933E86 /* AccountDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D4F2127622B2C00933E86 /* AccountDetailsTableViewController.m */; };
+		18825D7C27492B2200713AFE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825D7B27492B2200713AFE /* HomeViewController.m */; };
+		188C638E27431B6E0093006C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C638D27431B6E0093006C /* AppDelegate.m */; };
+		188C639127431B6E0093006C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C639027431B6E0093006C /* SceneDelegate.m */; };
+		188C639427431B6E0093006C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C639327431B6E0093006C /* LoginViewController.m */; };
+		188C639727431B6E0093006C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188C639527431B6E0093006C /* Main.storyboard */; };
+		188C639927431B710093006C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188C639827431B710093006C /* Assets.xcassets */; };
+		188C639C27431B710093006C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188C639A27431B710093006C /* LaunchScreen.storyboard */; };
+		188C639F27431B710093006C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C639E27431B710093006C /* main.m */; };
+		188C63A927431B720093006C /* articappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C63A827431B720093006C /* articappTests.m */; };
+		188C63B327431B720093006C /* articappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C63B227431B720093006C /* articappUITests.m */; };
+		188C63B527431B720093006C /* articappUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C63B427431B720093006C /* articappUITestsLaunchTests.m */; };
+		188C63C3274337CC0093006C /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C63C2274337CC0093006C /* TabBarController.m */; };
+		188C63C6274338C30093006C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188C63C5274338C30093006C /* SignUpViewController.m */; };
+		18BDCA2D27622E270010E366 /* BrowseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDCA2B27622E270010E366 /* BrowseCollectionViewCell.m */; };
+		18BDCA2E27622E270010E366 /* BrowseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BDCA2C27622E270010E366 /* BrowseCollectionViewCell.xib */; };
+		29B8E5462CE365E4C485746C /* Pods_articappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA9569114072A781F2F2344 /* Pods_articappTests.framework */; };
+		BB881A7E317185AD859A7ACC /* Pods_articapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CE5A61CA23A181636A8A5C /* Pods_articapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188C63A527431B720093006C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188C638127431B6D0093006C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188C638827431B6D0093006C;
+			remoteInfo = articapp;
+		};
+		188C63AF27431B720093006C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188C638127431B6D0093006C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188C638827431B6D0093006C;
+			remoteInfo = articapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F31E1A5CF67405171C45166 /* Pods-articappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-articappTests.release.xcconfig"; path = "Target Support Files/Pods-articappTests/Pods-articappTests.release.xcconfig"; sourceTree = "<group>"; };
+		181D20852749C3D000880FE8 /* UserPostsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPostsViewController.h; sourceTree = "<group>"; };
+		181D20862749C3D000880FE8 /* UserPostsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPostsViewController.m; sourceTree = "<group>"; };
+		181D20892749C4FF00880FE8 /* NotificationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		181D208A2749C4FF00880FE8 /* NotificationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		1832E67627475ACD00E69E32 /* NewPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
+		1832E67727475ACD00E69E32 /* NewPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
+		186D0A552748BE2200E089B8 /* BrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		186D0A562748BE2200E089B8 /* BrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		186D0A5D2748E05000E089B8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		186D0A5E2748E05000E089B8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		187D4F1D2762294500933E86 /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		187D4F1E2762294500933E86 /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		187D4F2027622B2C00933E86 /* AccountDetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountDetailsTableViewController.h; sourceTree = "<group>"; };
+		187D4F2127622B2C00933E86 /* AccountDetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountDetailsTableViewController.m; sourceTree = "<group>"; };
+		18825D7A27492B2200713AFE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18825D7B27492B2200713AFE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		188C638927431B6D0093006C /* articapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = articapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188C638C27431B6E0093006C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188C638D27431B6E0093006C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188C638F27431B6E0093006C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		188C639027431B6E0093006C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		188C639227431B6E0093006C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		188C639327431B6E0093006C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		188C639627431B6E0093006C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188C639827431B710093006C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188C639B27431B710093006C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188C639D27431B710093006C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188C639E27431B710093006C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188C63A427431B720093006C /* articappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = articappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188C63A827431B720093006C /* articappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = articappTests.m; sourceTree = "<group>"; };
+		188C63AE27431B720093006C /* articappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = articappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188C63B227431B720093006C /* articappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = articappUITests.m; sourceTree = "<group>"; };
+		188C63B427431B720093006C /* articappUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = articappUITestsLaunchTests.m; sourceTree = "<group>"; };
+		188C63C1274337CC0093006C /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		188C63C2274337CC0093006C /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		188C63C4274338C30093006C /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		188C63C5274338C30093006C /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		18BDCA2A27622E270010E366 /* BrowseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseCollectionViewCell.h; sourceTree = "<group>"; };
+		18BDCA2B27622E270010E366 /* BrowseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseCollectionViewCell.m; sourceTree = "<group>"; };
+		18BDCA2C27622E270010E366 /* BrowseCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowseCollectionViewCell.xib; sourceTree = "<group>"; };
+		1AA9569114072A781F2F2344 /* Pods_articappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_articappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E48C6CAE04A4053306AE1B3 /* Pods_articapp_articappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_articapp_articappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21254700ABD1261E8D063FA4 /* Pods-articapp-articappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-articapp-articappUITests.release.xcconfig"; path = "Target Support Files/Pods-articapp-articappUITests/Pods-articapp-articappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		371EBFC42DF89381EE3172A6 /* Pods-articapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-articapp.release.xcconfig"; path = "Target Support Files/Pods-articapp/Pods-articapp.release.xcconfig"; sourceTree = "<group>"; };
+		AD0301A81513231DD288E59A /* Pods-articapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-articapp.debug.xcconfig"; path = "Target Support Files/Pods-articapp/Pods-articapp.debug.xcconfig"; sourceTree = "<group>"; };
+		C8BACFC229E98339849FC2D6 /* Pods-articapp-articappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-articapp-articappUITests.debug.xcconfig"; path = "Target Support Files/Pods-articapp-articappUITests/Pods-articapp-articappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7CE5A61CA23A181636A8A5C /* Pods_articapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_articapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61C6BCA287FEFAD00993B04 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ShadowsIntoLight-Regular.ttf"; path = "../../../../Downloads/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
+		F9869C65246E4D18A907C050 /* Pods-articappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-articappTests.debug.xcconfig"; path = "Target Support Files/Pods-articappTests/Pods-articappTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188C638627431B6D0093006C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB881A7E317185AD859A7ACC /* Pods_articapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188C63A127431B720093006C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B8E5462CE365E4C485746C /* Pods_articappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188C63AB27431B720093006C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B50854FF9008C1E70D61684 /* Pods_articapp_articappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1832E670274729E600E69E32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F61C6BCA287FEFAD00993B04 /* ShadowsIntoLight-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		188C638027431B6D0093006C = {
+			isa = PBXGroup;
+			children = (
+				188C638B27431B6D0093006C /* articapp */,
+				188C63A727431B720093006C /* articappTests */,
+				188C63B127431B720093006C /* articappUITests */,
+				188C638A27431B6D0093006C /* Products */,
+				C7E3E2D4DB2C28231C7DE4E3 /* Pods */,
+				F03E7FCFF38B6114566C1524 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188C638A27431B6D0093006C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188C638927431B6D0093006C /* articapp.app */,
+				188C63A427431B720093006C /* articappTests.xctest */,
+				188C63AE27431B720093006C /* articappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188C638B27431B6D0093006C /* articapp */ = {
+			isa = PBXGroup;
+			children = (
+				1832E670274729E600E69E32 /* Resources */,
+				188C638C27431B6E0093006C /* AppDelegate.h */,
+				188C638D27431B6E0093006C /* AppDelegate.m */,
+				188C638F27431B6E0093006C /* SceneDelegate.h */,
+				188C639027431B6E0093006C /* SceneDelegate.m */,
+				188C639227431B6E0093006C /* LoginViewController.h */,
+				188C639327431B6E0093006C /* LoginViewController.m */,
+				188C639527431B6E0093006C /* Main.storyboard */,
+				188C639827431B710093006C /* Assets.xcassets */,
+				188C639A27431B710093006C /* LaunchScreen.storyboard */,
+				188C639D27431B710093006C /* Info.plist */,
+				188C639E27431B710093006C /* main.m */,
+				188C63C1274337CC0093006C /* TabBarController.h */,
+				188C63C2274337CC0093006C /* TabBarController.m */,
+				188C63C4274338C30093006C /* SignUpViewController.h */,
+				188C63C5274338C30093006C /* SignUpViewController.m */,
+				1832E67627475ACD00E69E32 /* NewPostViewController.h */,
+				1832E67727475ACD00E69E32 /* NewPostViewController.m */,
+				186D0A552748BE2200E089B8 /* BrowseViewController.h */,
+				186D0A562748BE2200E089B8 /* BrowseViewController.m */,
+				186D0A5D2748E05000E089B8 /* DetailViewController.h */,
+				186D0A5E2748E05000E089B8 /* DetailViewController.m */,
+				18825D7A27492B2200713AFE /* HomeViewController.h */,
+				18825D7B27492B2200713AFE /* HomeViewController.m */,
+				181D20852749C3D000880FE8 /* UserPostsViewController.h */,
+				181D20862749C3D000880FE8 /* UserPostsViewController.m */,
+				181D20892749C4FF00880FE8 /* NotificationsViewController.h */,
+				181D208A2749C4FF00880FE8 /* NotificationsViewController.m */,
+				187D4F1D2762294500933E86 /* SettingsTableViewController.h */,
+				187D4F1E2762294500933E86 /* SettingsTableViewController.m */,
+				187D4F2027622B2C00933E86 /* AccountDetailsTableViewController.h */,
+				187D4F2127622B2C00933E86 /* AccountDetailsTableViewController.m */,
+				18BDCA2A27622E270010E366 /* BrowseCollectionViewCell.h */,
+				18BDCA2B27622E270010E366 /* BrowseCollectionViewCell.m */,
+				18BDCA2C27622E270010E366 /* BrowseCollectionViewCell.xib */,
+			);
+			path = articapp;
+			sourceTree = "<group>";
+		};
+		188C63A727431B720093006C /* articappTests */ = {
+			isa = PBXGroup;
+			children = (
+				188C63A827431B720093006C /* articappTests.m */,
+			);
+			path = articappTests;
+			sourceTree = "<group>";
+		};
+		188C63B127431B720093006C /* articappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188C63B227431B720093006C /* articappUITests.m */,
+				188C63B427431B720093006C /* articappUITestsLaunchTests.m */,
+			);
+			path = articappUITests;
+			sourceTree = "<group>";
+		};
+		C7E3E2D4DB2C28231C7DE4E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0301A81513231DD288E59A /* Pods-articapp.debug.xcconfig */,
+				371EBFC42DF89381EE3172A6 /* Pods-articapp.release.xcconfig */,
+				C8BACFC229E98339849FC2D6 /* Pods-articapp-articappUITests.debug.xcconfig */,
+				21254700ABD1261E8D063FA4 /* Pods-articapp-articappUITests.release.xcconfig */,
+				F9869C65246E4D18A907C050 /* Pods-articappTests.debug.xcconfig */,
+				0F31E1A5CF67405171C45166 /* Pods-articappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F03E7FCFF38B6114566C1524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE5A61CA23A181636A8A5C /* Pods_articapp.framework */,
+				1E48C6CAE04A4053306AE1B3 /* Pods_articapp_articappUITests.framework */,
+				1AA9569114072A781F2F2344 /* Pods_articappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188C638827431B6D0093006C /* articapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188C63B827431B720093006C /* Build configuration list for PBXNativeTarget "articapp" */;
+			buildPhases = (
+				2E2E40904043B00DD64871A8 /* [CP] Check Pods Manifest.lock */,
+				188C638527431B6D0093006C /* Sources */,
+				188C638627431B6D0093006C /* Frameworks */,
+				188C638727431B6D0093006C /* Resources */,
+				03E246A56A0A53B344006AAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = articapp;
+			productName = articapp;
+			productReference = 188C638927431B6D0093006C /* articapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188C63A327431B720093006C /* articappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188C63BB27431B720093006C /* Build configuration list for PBXNativeTarget "articappTests" */;
+			buildPhases = (
+				C05B58DA5C9CFA3234BF96E8 /* [CP] Check Pods Manifest.lock */,
+				188C63A027431B720093006C /* Sources */,
+				188C63A127431B720093006C /* Frameworks */,
+				188C63A227431B720093006C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188C63A627431B720093006C /* PBXTargetDependency */,
+			);
+			name = articappTests;
+			productName = articappTests;
+			productReference = 188C63A427431B720093006C /* articappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188C63AD27431B720093006C /* articappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188C63BE27431B720093006C /* Build configuration list for PBXNativeTarget "articappUITests" */;
+			buildPhases = (
+				D7D4B48A54BF4C1400E42446 /* [CP] Check Pods Manifest.lock */,
+				188C63AA27431B720093006C /* Sources */,
+				188C63AB27431B720093006C /* Frameworks */,
+				188C63AC27431B720093006C /* Resources */,
+				DBCC5B3A28D678BBF00501CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188C63B027431B720093006C /* PBXTargetDependency */,
+			);
+			name = articappUITests;
+			productName = articappUITests;
+			productReference = 188C63AE27431B720093006C /* articappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188C638127431B6D0093006C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					188C638827431B6D0093006C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					188C63A327431B720093006C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 188C638827431B6D0093006C;
+					};
+					188C63AD27431B720093006C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 188C638827431B6D0093006C;
+					};
+				};
+			};
+			buildConfigurationList = 188C638427431B6D0093006C /* Build configuration list for PBXProject "articapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188C638027431B6D0093006C;
+			productRefGroup = 188C638A27431B6D0093006C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188C638827431B6D0093006C /* articapp */,
+				188C63A327431B720093006C /* articappTests */,
+				188C63AD27431B720093006C /* articappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188C638727431B6D0093006C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C639C27431B710093006C /* LaunchScreen.storyboard in Resources */,
+				18BDCA2E27622E270010E366 /* BrowseCollectionViewCell.xib in Resources */,
+				188C639927431B710093006C /* Assets.xcassets in Resources */,
+				188C639727431B6E0093006C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188C63A227431B720093006C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188C63AC27431B720093006C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E246A56A0A53B344006AAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-articapp/Pods-articapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-articapp/Pods-articapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-articapp/Pods-articapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E2E40904043B00DD64871A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-articapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05B58DA5C9CFA3234BF96E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-articappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D4B48A54BF4C1400E42446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-articapp-articappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCC5B3A28D678BBF00501CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-articapp-articappUITests/Pods-articapp-articappUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-articapp-articappUITests/Pods-articapp-articappUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-articapp-articappUITests/Pods-articapp-articappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188C638527431B6D0093006C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C639427431B6E0093006C /* LoginViewController.m in Sources */,
+				1832E67827475ACD00E69E32 /* NewPostViewController.m in Sources */,
+				186D0A572748BE2200E089B8 /* BrowseViewController.m in Sources */,
+				188C638E27431B6E0093006C /* AppDelegate.m in Sources */,
+				186D0A5F2748E05000E089B8 /* DetailViewController.m in Sources */,
+				188C63C6274338C30093006C /* SignUpViewController.m in Sources */,
+				181D208B2749C4FF00880FE8 /* NotificationsViewController.m in Sources */,
+				18BDCA2D27622E270010E366 /* BrowseCollectionViewCell.m in Sources */,
+				181D20872749C3D000880FE8 /* UserPostsViewController.m in Sources */,
+				187D4F2227622B2C00933E86 /* AccountDetailsTableViewController.m in Sources */,
+				188C63C3274337CC0093006C /* TabBarController.m in Sources */,
+				188C639F27431B710093006C /* main.m in Sources */,
+				188C639127431B6E0093006C /* SceneDelegate.m in Sources */,
+				187D4F1F2762294500933E86 /* SettingsTableViewController.m in Sources */,
+				18825D7C27492B2200713AFE /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188C63A027431B720093006C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C63A927431B720093006C /* articappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188C63AA27431B720093006C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C63B527431B720093006C /* articappUITestsLaunchTests.m in Sources */,
+				188C63B327431B720093006C /* articappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188C63A627431B720093006C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188C638827431B6D0093006C /* articapp */;
+			targetProxy = 188C63A527431B720093006C /* PBXContainerItemProxy */;
+		};
+		188C63B027431B720093006C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188C638827431B6D0093006C /* articapp */;
+			targetProxy = 188C63AF27431B720093006C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188C639527431B6E0093006C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188C639627431B6E0093006C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188C639A27431B710093006C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188C639B27431B710093006C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188C63B627431B720093006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188C63B727431B720093006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188C63B927431B720093006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0301A81513231DD288E59A /* Pods-articapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = articapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rica-activities.articapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188C63BA27431B720093006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371EBFC42DF89381EE3172A6 /* Pods-articapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = articapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rica-activities.articapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		188C63BC27431B720093006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9869C65246E4D18A907C050 /* Pods-articappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rica-activities.articappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/articapp.app/articapp";
+			};
+			name = Debug;
+		};
+		188C63BD27431B720093006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F31E1A5CF67405171C45166 /* Pods-articappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rica-activities.articappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/articapp.app/articapp";
+			};
+			name = Release;
+		};
+		188C63BF27431B720093006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BACFC229E98339849FC2D6 /* Pods-articapp-articappUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rica-activities.articappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = articapp;
+			};
+			name = Debug;
+		};
+		188C63C027431B720093006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21254700ABD1261E8D063FA4 /* Pods-articapp-articappUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rica-activities.articappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = articapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188C638427431B6D0093006C /* Build configuration list for PBXProject "articapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188C63B627431B720093006C /* Debug */,
+				188C63B727431B720093006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188C63B827431B720093006C /* Build configuration list for PBXNativeTarget "articapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188C63B927431B720093006C /* Debug */,
+				188C63BA27431B720093006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188C63BB27431B720093006C /* Build configuration list for PBXNativeTarget "articappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188C63BC27431B720093006C /* Debug */,
+				188C63BD27431B720093006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188C63BE27431B720093006C /* Build configuration list for PBXNativeTarget "articappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188C63BF27431B720093006C /* Debug */,
+				188C63C027431B720093006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188C638127431B6D0093006C /* Project object */;
+}

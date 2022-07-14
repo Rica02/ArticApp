@@ -1,0 +1,6 @@
+framework module Pods_articappTests {
+  umbrella header "Pods-articappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
